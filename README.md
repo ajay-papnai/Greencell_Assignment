@@ -35,7 +35,6 @@ The following steps were performed in the notebook:
 
 - Verified data loading using `df.head()`, `df.shape()`, and `df.info()`
 - Converted timestamp values from object type to datetime format
-- Converted voltage values to numeric format
 - Calculated moving averages with window sizes **1000** and **5000**
 - Identified local peaks and lows using `scipy.signal.find_peaks`
 - Visualized voltage trends with clear axis labels and legends
@@ -45,9 +44,10 @@ The following steps were performed in the notebook:
 ## 📈 Visualization
 
 - Voltage values plotted against time
+- Moving Average (5) highlights short-term trends
 - Moving Average (1000) highlights medium-term trends
 - Moving Average (5000) highlights long-term trends
-- X-axis timestamps optimized for readability
+- local peaks and lows of data
 
 ---
 
